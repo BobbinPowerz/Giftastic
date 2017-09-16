@@ -1,12 +1,26 @@
+#wrapper {
+margin: 10 auto;
+
+}
+
 body {
-	background-color: lightblue;
+	background-image: url("bground.png");
+	text-align: center;
+	color: #523182;
 }
+
+.jumbotron {
+	background: rgba(186, 201, 167, 0.4);	
+}
+
+
 img {
-width: 15%;
+width: 40%;
 margin: 10px;
-display: inline-block;
 }
+
 button {
 	margin: 5px;
+	padding: 3px;
 }
 
