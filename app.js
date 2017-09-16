@@ -47,7 +47,7 @@ function fetch() {
 		console.log(this);
 
 		//assembling API call wiht link and q as well as limiting response to 10 items
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
 		food + "&api_key=dc6zaTOxFJmzC&limit=10";
 			$.ajax({
 			url: queryURL,
